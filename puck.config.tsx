@@ -24,7 +24,7 @@ export const config: Config<Props> = {
           },
         },
       },
-      defaultProps: DEFAULT_DIFFERENCE_PROPS,
+      defaultProps: DEFAULT_WHATWEDO_PROPS,
       render: (props) => <WhatWeDo {...props} />,
     },
   }
