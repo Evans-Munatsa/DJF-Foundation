@@ -1,8 +1,8 @@
 "use client";
 
 import Hero from '@/components/Home/hero';
-import Error from './error';
-import NotFound from './not-found';
+import ImpactSection from '@/components/Home/impact';
+// import OurDifference from '@/components/WhatWeDo/page';
 
 export default function Home() {
 
@@ -11,6 +11,8 @@ export default function Home() {
     // <NotFound/>
     <>
       <Hero />
+      <ImpactSection/>
+      {/* <WhatWeDo/> */}
       </>
   );
 }
