@@ -5,9 +5,9 @@ import Image from "next/image";
 export function OurFounders() {
   const founders = [
     "/david.svg",
-    "/david.svg",
-    "/david.svg",
-    "/david.svg",
+    "/founders/founder-1.svg",
+    "/founders/founder-2.svg",
+    "/founders/founder-3.svg",
   ];
 
   return (
