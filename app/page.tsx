@@ -1,5 +1,6 @@
 "use client";
 
+import { Community } from '@/components/Home/community/page';
 import Hero from '@/components/Home/hero';
 import ImpactSection from '@/components/Home/impact';
 
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="h-40 w-full bg-gradient-to-b from-[#1e6cf5] to-[#a9b9d3]" />
       
       <ImpactSection />
+      <Community/>
     </main>
   );
 }

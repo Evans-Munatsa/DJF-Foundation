@@ -22,15 +22,17 @@ export default function ImpactSection() {
   ];
 
   return (
-    <section className="bg-[#a9b9d3] text-center py-20 px-6 relative overflow-hidden">
+    <section className="bg-[#a9b9d3] mx-auto text-center py-20 px-6 relative overflow-hidden">
 
       {/* TITLE */}
-      <h2 className="text-start text-[40px] md:text-[120px] font-brandHeader text-[#0259DE] mb-16">
-        Our Impact
-      </h2>
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+        <h2 className="text-start text-[40px] md:text-[120px] font-brandHeader text-[#0259DE] mb-16">
+          Our Impact
+        </h2>
+      </div>
 
       {/* CARDS */}
-      <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto mb-20">
+      <div className="grid md:grid-cols-3 gap-12 max-w-7xl mx-auto mb-20">
         {items.map((item, i) => (
           <div key={i} className="flex flex-col items-center text-center">
             
