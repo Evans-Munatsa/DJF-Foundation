@@ -20,8 +20,8 @@ export default async function EditStoryPage({
   // 2. Fetch the specific story
   const [story] = await db
     .select()
-    .from(stories)
-    .where(eq(stories.id, storyId))
+    .from(impactStories)
+    .where(eq(impactStories.id, storyId))
     .limit(1);
 
   // 3. Use the built-in notFound() helper for a cleaner 404
